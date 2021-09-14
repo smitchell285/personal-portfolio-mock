@@ -1,0 +1,21 @@
+{% extends 'portfolio/home.html' %}
+
+{% block body_block %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'portfolio/projects.css' %}">
+
+    <h1>Portfolio</h1>
+
+<div class="container">
+  <div class="row row-cols-3">
+    {% for project in projects %}
+      <div class="col">
+        <img class='img-fluid' src="{{project.image.url}}" alt="">
+
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+{% endblock %}

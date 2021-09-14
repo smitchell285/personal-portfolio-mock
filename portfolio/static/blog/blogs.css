@@ -1,0 +1,17 @@
+h1{
+  text-align: center;
+  color: #6593A6;
+  padding: 25px 0px;
+}
+
+a{
+  color: #F2C063;
+}
+
+a:hover{
+  color:#6593A6;
+}
+
+p .content{
+  margin-bottom: 10px;
+}
